@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Document Baihaqi</title>
+  <!-- CSS Internal -->
+  <style>
+    footer {
+      background-color: aqua;
+    }
+  </style>
+  <!-- CSS External -->
+  <link rel="stylesheet" href="css\styles.css">
 </head>
+
 <body>
+  
+  <header>
+    <!-- CSS Inline -->
+    <h1 style="color: red;">Ini Title Kiri</h1>
+    <h1 style="color: red;">Ini Title Kanan</h1>
+  </header>
+
+  <article>
+    <p>Ini Konten</p>
+    <button onclick="nyalakanLampu();">Tombol</button>
+  </article>
+
+  <footer>
+    <span>Ini Footer</span>
+  </footer>
+  
+  <script>
+    function nyalakanLampu() {
+      alert('Lampu Menyala');
+    } 
+  </script>
+
 </body>
+
 </html>

@@ -1,0 +1,8 @@
+p {
+  background-color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
